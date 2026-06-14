@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time WebSocket Whiteboard</title>
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; text-align: center; background: #f0f2f5; }
+        canvas { border: 2px solid #333; background: #fff; cursor: crosshair; margin-top: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        p { color: #666; }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Whiteboard</h1>
+    <p>Draw on the canvas. Other connected clients will see your drawing in real time!</p>
+    <canvas id="whiteboard" width="800" height="600"></canvas>
+
+    <script src="app.js"></script>
+</body>
+</html>
